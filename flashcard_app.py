@@ -1,8 +1,6 @@
 from tkinter import *
 from random import randint
 
-
-
 root = Tk()
 root.title("English-Lithuanian Flash Cards for Kaihan")
 root.geometry("550x500")
@@ -54,7 +52,6 @@ words = [
 ]
 
 count = len(words)
-
 
 def next():
     global hinter, hint_count
